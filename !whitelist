@@ -1,1 +1,33 @@
---a
+local ip = syn.request({Url = 'https://api.ipify.org/?format=raw', Method = "GET"}).Body
+
+if ip == "84.107.145.207" then
+    game.StarterGui:SetCore("SendNotification", {
+        Title = 'LukHub'; 
+        Text = 'Welcome Lukie!'; 
+        Icon = "http://www.roblox.com/asset/?id=5354778045";  
+        Duration = 3.5;
+    }) 
+elseif ip == "188.44.72.156" then
+    game.StarterGui:SetCore("SendNotification", {
+        Title = 'LukHub'; 
+        Text = 'Welcome Intrer!'; 
+        Icon = "http://www.roblox.com/asset/?id=5495522033";  
+        Duration = 3.5;
+    }) 
+elseif ip == "168.121.100.201" then
+    game.StarterGui:SetCore("SendNotification", {
+        Title = 'LukHub'; 
+        Text = 'Welcome Nitro CHB!'; 
+        Icon = "http://www.roblox.com/asset/?id=5495522500";  
+        Duration = 3.5;
+    }) 
+elseif ip == "170.249.94.81" then
+    game.StarterGui:SetCore("SendNotification", {
+        Title = 'LukHub'; 
+        Text = 'Welcome Fakesirmeme!'; 
+        Icon = "http://www.roblox.com/asset/?id=5354778045";  
+        Duration = 3.5;
+    }) 
+else 
+    print("welcome")
+end
