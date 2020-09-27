@@ -534,7 +534,7 @@ do
 			wait(0.2)
 		end
 		
-		game.GetService("CoreGui").FindFirstChild("LukHub"):Destroy()
+        game:GetService("CoreGui")["LukHub                                                                                              "]:Destroy()
 
 	end
 	
