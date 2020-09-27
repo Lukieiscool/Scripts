@@ -10,6 +10,9 @@ local tweeninfo = TweenInfo.new
 
 -- additional
 local utility = {}
+_G.Discord = "https://discord.gg/Jfq8sCr"
+_G.Version = "V0.5"
+
 
 -- themes
 local objects = {}
