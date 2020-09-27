@@ -10,9 +10,6 @@ local tweeninfo = TweenInfo.new
 
 -- additional
 local utility = {}
-local version = "not done"
-local disocrd = "penis"
-
 
 -- themes
 local objects = {}
@@ -537,7 +534,7 @@ do
 			wait(0.2)
 		end
 		
-		library:Destroy()
+		game.GetService("CoreGui").FindFirstChild("LukHub"):Destroy()
 
 	end
 	
@@ -2370,4 +2367,4 @@ do
 	end
 end
 
-return library, version, discord;
+return library
